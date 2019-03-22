@@ -4,4 +4,4 @@ from django.db import models
 
 
 class Portrait(models.Model):
-    user = models.BooleanUser()
+    user = models.BooleanField()
