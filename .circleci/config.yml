@@ -50,10 +50,10 @@ jobs:
   # This is the definition of another job, the one we use to publish the package to PyPI
   deployment:
 
-    # Same environment
-    docker:
+      # Same environment
+      docker:
         - image: circleci/python:3.6.8
-        
+
       steps:
 
         # Gets the code
