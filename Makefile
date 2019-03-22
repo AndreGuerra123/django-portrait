@@ -31,7 +31,7 @@ lint: ## check style with flake8
 	poetry run flake8 django_portrait tests
 
 test: ## run tests quickly with the default Python
-	poetry run runtests.py tests
+	poetry run python runtests.py tests
 
 coverage: ## check code coverage quickly with the default Python
 	poetry run coverage run --source django_portrait runtests.py tests

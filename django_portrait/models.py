@@ -2,10 +2,7 @@
 
 from django.db import models
 
-from model_utils.models import TimeStampedModel
-
-
-class Portrait(TimeStampedModel):
+class Portrait(models.Model):
     pass
     
 
