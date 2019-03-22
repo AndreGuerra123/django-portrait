@@ -7,13 +7,10 @@ from django.views.generic import (
     ListView
 )
 
-from .models import (
-	Portrait,
-)
+from .models import Portrait
 
 
 class PortraitCreateView(CreateView):
-
     model = Portrait
 
 
@@ -33,6 +30,4 @@ class PortraitUpdateView(UpdateView):
 
 
 class PortraitListView(ListView):
-
     model = Portrait
-

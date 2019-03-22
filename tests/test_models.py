@@ -19,7 +19,7 @@ class TestDjango_portrait(TestCase):
         self.portrait = models.Portrait()
 
     def test_something(self):
-        assert(self.portrait,"Could not create model instance.")
+        assert self.portrait
 
     def tearDown(self):
         pass

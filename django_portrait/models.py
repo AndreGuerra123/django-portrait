@@ -2,8 +2,6 @@
 
 from django.db import models
 
+
 class Portrait(models.Model):
-    pass
-    
-
-
+    user = models.BooleanUser()
