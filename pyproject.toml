@@ -6,8 +6,7 @@ authors = ["AndreGuerra123 <guerraandre@hotmail.com>"]
 license = "MIT"
 
 [tool.poetry.dependencies]
-python = "*"
-django = "*"
+
 
 [tool.poetry.dev-dependencies]
 coverage = "^4.5"
