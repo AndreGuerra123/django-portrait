@@ -12,9 +12,17 @@ jobs:
           command: |
             poetry install
       - run:
+         name: Lint
+         command: |
+            poetry run flake8 django_portrait
+      - run:
           name: Test
           command: |
             poetry run tox
+      - run:
+         name: Codecov
+         command: |
+            poetry run codecov
             
   deployment:
       docker:
