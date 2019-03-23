@@ -7,17 +7,10 @@ jobs:
 
     steps:
       - checkout
-      - restore_cache:
-          keys:
-            - deps-{{ checksum "poetry.lock" }}
       - run:
           name: Install
           command: |
             poetry install
-      - save_cache:
-          key: deps-{{ checksum "poetry.lock" }}
-          paths:
-            - /home/circleci/.cache/pypoetry/virtualenvs
       - run:
           name: Test
           command: |
