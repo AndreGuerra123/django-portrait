@@ -13,6 +13,7 @@ django = "^2.1"
 coverage = "^4.5"
 codecov = "^2.0"
 flake8 = "^3.7"
+tox = "^3.7"
 
 [build-system]
 requires = ["poetry>=0.12"]
