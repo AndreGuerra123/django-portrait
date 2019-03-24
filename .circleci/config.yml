@@ -20,7 +20,7 @@ jobs:
           command: |
             poetry run tox
       - run:
-         name: Codecov
+         name: Report
          command: |
             poetry run codecov
             
