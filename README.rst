@@ -67,7 +67,7 @@ Does the code actually work?
 Credits
 -------
 
-Tools used in rendering this package:
+These tools were used to inspire the development of this package:
 
 *  Cookiecutter_
 *  `cookiecutter-djangopackage`_
